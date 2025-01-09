@@ -1,0 +1,11 @@
+variables:
+  pH: float64
+  Temperature: int64
+  Taste: int64
+  Odor: int64
+  Fat: int64
+  Turbidity: int64
+  Colour: int64
+
+output:
+  Grade:
