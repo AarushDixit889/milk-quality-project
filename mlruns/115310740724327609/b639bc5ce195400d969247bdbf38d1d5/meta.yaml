@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Aarush/data%20science%20projects/Milk%20Quality%20Prediction/mlruns/115310740724327609/b639bc5ce195400d969247bdbf38d1d5/artifacts
+end_time: 1736407739265
+entry_point_name: ''
+experiment_id: '115310740724327609'
+lifecycle_stage: active
+run_id: b639bc5ce195400d969247bdbf38d1d5
+run_name: Decision Tree
+run_uuid: b639bc5ce195400d969247bdbf38d1d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736407727718
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Aarush/data%20science%20projects/Milk%20Quality%20Prediction/mlruns/115310740724327609/37a82d7ccabd441a972f514b48181d94/artifacts
+end_time: 1736407752414
+entry_point_name: ''
+experiment_id: '115310740724327609'
+lifecycle_stage: active
+run_id: 37a82d7ccabd441a972f514b48181d94
+run_name: SVM
+run_uuid: 37a82d7ccabd441a972f514b48181d94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736407739489
+status: 3
+tags: []
+user_id: user

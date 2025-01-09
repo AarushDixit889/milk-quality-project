@@ -1,0 +1,16 @@
+logistic_regression:
+  C: 1.0
+  penalty: l2
+  solver: liblinear
+
+random_forest:
+  n_estimators: 100
+
+decison_tree:
+  max_depth: 5
+
+svc:
+  C: 1.0
+  kernel: linear
+
+

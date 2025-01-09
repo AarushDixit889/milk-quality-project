@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Aarush/data%20science%20projects/Milk%20Quality%20Prediction/mlruns/115310740724327609/12dd884a2efb410cb24f9850d4351a51/artifacts
+end_time: 1736407715218
+entry_point_name: ''
+experiment_id: '115310740724327609'
+lifecycle_stage: active
+run_id: 12dd884a2efb410cb24f9850d4351a51
+run_name: Logistic Regression
+run_uuid: 12dd884a2efb410cb24f9850d4351a51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736407693585
+status: 3
+tags: []
+user_id: user

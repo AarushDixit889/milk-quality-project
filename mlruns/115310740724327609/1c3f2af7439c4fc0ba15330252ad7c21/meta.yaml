@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Aarush/data%20science%20projects/Milk%20Quality%20Prediction/mlruns/115310740724327609/1c3f2af7439c4fc0ba15330252ad7c21/artifacts
+end_time: 1736407727551
+entry_point_name: ''
+experiment_id: '115310740724327609'
+lifecycle_stage: active
+run_id: 1c3f2af7439c4fc0ba15330252ad7c21
+run_name: Random Forest
+run_uuid: 1c3f2af7439c4fc0ba15330252ad7c21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736407715445
+status: 3
+tags: []
+user_id: user
