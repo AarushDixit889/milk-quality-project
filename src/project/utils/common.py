@@ -3,8 +3,9 @@ from pathlib import Path
 import os
 import json
 import pickle
+from box import ConfigBox
 
-def read_yaml(path_to_yaml: Path) -> dict:
+def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """
         Reads a YAML file and returns the contents as a dictionary
 
@@ -15,14 +16,14 @@ def read_yaml(path_to_yaml: Path) -> dict:
 
         Returns
         -------
-        dict
+        ConfigBox
             Contents of the YAML file
     """
 
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
-        return content
+        return ConfigBox(content)
     except Exception as e:
         raise e
     
@@ -67,7 +68,7 @@ def save_json(path: Path, data: dict):
 
 
 
-def load_json(path: Path) -> dict:
+def load_json(path: Path) -> ConfigBox:
     """
         Loads a JSON file and returns the contents as a dictionary
 
@@ -78,11 +79,11 @@ def load_json(path: Path) -> dict:
 
         Returns
         -------
-        dict
+        ConfigBox
             Contents of the JSON file
     """
     with open(path, "r") as f:
-        return json.load(f)
+        return ConfigBox(json.load(f))
     
 def save_object(file_path: Path, obj: object) -> None:
     """
